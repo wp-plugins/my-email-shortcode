@@ -4,7 +4,7 @@
 	Plugin URI: http://www.blogworkorange.net/my-email-shortcode/
 	Description: This plugin adds a shortcode to help users manage their email addresses on the site
 	Author: Paweł Pela
-	Version: 0.90
+	Version: 0.91
 	Author URI: http://www.paulpela.com
 	License: GPL2
 
@@ -32,7 +32,7 @@ function my_email_shortcode($atts) {
 	} else {
 		$subject = "";
 	}
-	$email = get_the_author_meta("user_email");
+	$email = antispambot(get_the_author_meta("user_email"));
 	if($email) {
 		return "<a href=\"mailto:$email" . "$subject\" class=\"my-email-shortcode\">$email</a>";
 	} else {

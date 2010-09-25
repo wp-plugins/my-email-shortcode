@@ -1,10 +1,10 @@
 === My Email Shortcode ===
 Contributors: paulpela
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XC8GDD4EMJK98
-Tags: email, shortcode
+Tags: email, shortcode, author, profile
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 0.90
+Stable tag: 0.91
 
 If you often display your email address on your blog, this plugin is for you. If you change your address, it will apply the change in all places.
 
@@ -12,9 +12,9 @@ If you often display your email address on your blog, this plugin is for you. If
 
 Opis w języku polskim: http://www.blogworkorange.net/my-email-shortcode/
 
-My Email Shortcode is a plugin which adds a new shortcode [my-email] to your options. You can insert this shortcode at any place in your post or page main body and it will be automatically substituted by a link with your email address.
+My Email Shortcode is a plugin which adds a new shortcode [my-email] to your options. You can insert this shortcode at any place in your post's or page's main body and it will be automatically substituted by a link with your email address (with anti-spambot protection automatically included).
 
-The shortcode takes the email addres from the post or page author profile, so whenever you change this email, the change will be automatically shown in all your posts and pages.
+The shortcode takes the email addres from the post or page author's profile, so whenever an author changes his/her email, the change will be automatically shown in all his/her posts and pages.
 
 You can also add a default subject by adding a subject attribute like this: [my-email subject="Subject"]. Whenever a person clicks on your addres, it will autoamtically set the subject of the message to the one you chose.
 
@@ -45,10 +45,16 @@ No screenshots.
 
 == Changelog ==
 
-= 1.00 =
+= 0.91 =
+* Added anti-spambot protection
+
+= 0.90 =
 * First public release
 
 == Upgrade Notice ==
 
-= 1.00 =
+= 0.91 =
+* Added anti-spambot protection
+
+= 0.90 =
 * First public release
